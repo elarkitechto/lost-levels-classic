@@ -2,6 +2,12 @@
 
 Convert the Japanese FDS Lost Levels to NES, with SMB1-style scenery, platforms, mushrooms, bricks and castles. Includes the final scoped bridge and Blooper palette fixes. Original Mario and Luigi physics are preserved.
 
+## Before and after
+
+![Original Lost Levels tiles compared with the final SMB1-style graphics, at the same frame in World 1-1](docs/before-after.png)
+
+Same frame, player position and enemy positions in the middle section of World 1-1. Left: the original MMC1 conversion. Right: Classic Graphics. Captured from isolated sessions with identical inputs; enlarged with nearest-neighbor scaling.
+
 ## Create the NES ROM
 
 1. Install [Python 3](https://www.python.org/downloads/) with Tkinter.

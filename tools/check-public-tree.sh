@@ -5,6 +5,9 @@ cd "$root"
 bad=0
 git ls-files | while IFS= read -r path; do
   case "$path" in
+    docs/before-after.png)
+      [ "$(shasum -a 256 "$path" | cut -d ' ' -f 1)" = a7a4d476aae1c8dd1ff1804978dbf2c7871dca32beffe9c1d1693c7f9d3267b3 ] || exit 1
+      continue;;
     ports/triples/assets/fonts/Inter-Bold.ttf|ports/triples/assets/fonts/Jua-Regular.ttf) ;;
     *.apk|*.xapk|*.ppm|*.zip|*.7z|*.so|*.dat|*.sav|*.png|*.jpg|*.jpeg|*/userdata/*|*/prefs/*|*/assets/*|.local/*)
       echo "Private or binary file staged: $path" >&2; exit 1;;
