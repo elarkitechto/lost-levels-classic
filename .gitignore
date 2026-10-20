@@ -1,0 +1,13 @@
+*.nes
+*.fds
+*.srm
+*.sav
+*.state*
+*.so
+*.dll
+*.dylib
+*.zip
+__pycache__/
+build/
+.cache/
+.DS_Store
