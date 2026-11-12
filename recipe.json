@@ -6,7 +6,7 @@
   "patch_url": "https://raw.githubusercontent.com/simplistic6502/smb2j-mmc1/2f48615fafbd8a0c395e8aafede6165cbc66ea23/smb2j-mmc1.bps",
   "patch_sha256": "ad8208b41553c82373abfce41f7bd704c09b71df0d83faa6ae5de07d40834a79",
   "base_sha256": "2d96f3e8bc38dbd5f36ab1ba92fb1d86c9322cba0337102a2f8737c6aa9b9bc0",
-  "output_sha256": "6df9af8cd888a6354c2ec39cceae9cfc0c5b5c653b8dc7cb5bc04d3ace612fae",
+  "output_sha256": "758880642391ba7f52a4d4c2c68082e3927f9a896705b37e78a4b9f17d4dc448",
   "output_name": "Lost Levels Classic Graphics.nes",
   "chr_offset": 3854,
   "tiles": [
@@ -394,6 +394,31 @@
       "offset": 60176,
       "before": "ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
       "after": "ad7307c902d01cadfb07d017ad5007c921f008c924f004c92cd008a9398500a9eb85014c5a8dadfb07d00aad5007c924d003a90160ad3307603f00200f291a0f0f36170f0f30210f0f27170f0f1627180f1a30270f1630270f0f301000"
+    },
+    {
+      "offset": 44338,
+      "before": "a5ced9abacd009a51dc900d003eed906",
+      "after": "4c00ec"
+    },
+    {
+      "offset": 60432,
+      "before": "ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+      "after": "a5ced9abacd012a51dd00eeed906a5fed004a90185fe4c32ada5fed0f9a90885fe4c32ad"
+    },
+    {
+      "offset": 47606,
+      "before": "2065ba",
+      "after": "2000ed"
+    },
+    {
+      "offset": 47738,
+      "before": "ad9f07",
+      "after": "207aed"
+    },
+    {
+      "offset": 60688,
+      "before": "ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+      "after": "a90085eead4e07c903d06ca50ec908d066ad47070d1607d05ea59f105aa5b5c901d054b5b6c901d04ea506c9f0b048adad0318690c38e506c910b03bad54070d1407d004a904d002a91285041865ce38e507c9069021c90cb01da50718690c38e50485cea901859f85eea9008d3304a5ffd004a90285ff4c65baad9f0705ee60"
     }
   ],
   "donor_label": "Super Mario Bros. (World) (HVC-SM).nes"

@@ -1,6 +1,6 @@
 # Lost Levels Classic Graphics
 
-Convert the Japanese FDS Lost Levels to NES, with SMB1-style scenery, platforms, mushrooms, bricks and castles. Includes the final scoped bridge and Blooper palette fixes. Original Mario and Luigi physics are preserved.
+Convert the Japanese FDS Lost Levels to NES, with SMB1-style scenery, platforms, mushrooms, bricks and castles. Includes the final scoped bridge and Blooper palette fixes. Original Mario and Luigi physics are preserved. Maze checkpoints play the original coin chime for a correct path and the original fireworks sound for a wrong one. The routes and loopback rules are unchanged. In castles, jumping into the underside of a firebar pivot stops upward movement; exposed fireballs remain hazardous.
 
 ## Before and after
 

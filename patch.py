@@ -116,8 +116,8 @@ def enhance(base, donor):
         for edit in RECIPE['records']:
             offset = edit['offset']
             before, after = bytes.fromhex(edit['before']), bytes.fromhex(edit['after'])
-            require(output[offset:offset + len(before)] == before, 'Palette hook mismatch.')
-            output[offset:offset + len(before)] = after
+            require(output[offset:offset + len(before)] == before, 'ROM patch mismatch at offset 0x{:X}.'.format(offset))
+            output[offset:offset + len(after)] = after
     else:
         routine = donor[0xdf0:0xdf0 + 37]
         require(digest(routine) == RECIPE['routine_sha256'], 'Donor run routine mismatch.')
